@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anh Thu — Happy Birthday</title>
+<style>
+  /* =========================================================
+     EDIT HERE — the easiest place to personalize the page.
+     ========================================================= */
+  :root{
+    --cream:#fbf8f4;
+    --paper:#fffdfb;
+    --ink:#3f3540;
+    --muted:#786b75;
+    --rose:#c98286;
+    --rose-soft:#f8e8e7;
+    --lav:#ece8f5;
+    --lav-ink:#665b7b;
+    --line:#e6dcd7;
+    --radius:18px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;
+    background:var(--cream);
+    color:var(--ink);
+    font-family: Georgia, "Times New Roman", serif;
+    line-height:1.65;
+  }
+  .page{max-width:1100px;margin:auto;background:var(--paper)}
+  .hero{
+    display:grid;
+    grid-template-columns:1.08fr .92fr;
+    min-height:520px;
+    overflow:hidden;
+  }
+  .hero-art{min-height:520px;background:#e9edf0}
+  .hero-art img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
+  .hero-copy{
+    display:flex;flex-direction:column;justify-content:center;
+    padding:56px 48px;text-align:center;
+    background:linear-gradient(145deg,#fffdfb,#f8efed);
+  }
+  .eyebrow{letter-spacing:.25em;text-transform:uppercase;font-size:.78rem;color:var(--muted)}
+  h1{font-size:clamp(3rem,6vw,5.2rem);line-height:1;margin:12px 0 8px;font-weight:500}
+  .cat{font-size:2rem;color:var(--rose)}
+  .subtitle{max-width:420px;margin:20px auto 0;color:var(--muted);font-size:1.05rem}
+  .section{padding:72px 7%}
+  .section-title{text-align:center;margin:0 0 10px;font-size:2.2rem;font-weight:500}
+  .section-intro{text-align:center;color:var(--muted);margin:0 auto 42px;max-width:650px}
+  .messages{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
+  .message{padding:0 34px}
+  .message + .message{border-left:1px solid var(--line)}
+  .lang{text-transform:uppercase;letter-spacing:.15em;font-size:.78rem;color:var(--rose);margin-bottom:14px}
+  .message p{margin:0;color:#514851}
+  .gift-section{background:#fcfaf8;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .gift-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  .gift-card{
+    border:1px solid var(--line);border-radius:var(--radius);
+    padding:30px;background:white;
+  }
+  .gift-card.shopee{background:linear-gradient(145deg,#fff5f1,#fffdfb)}
+  .gift-card.special{background:linear-gradient(145deg,#f5f2fb,#fffdfb)}
+  .gift-icon{font-size:2rem}
+  .gift-card h3{font-size:1.5rem;margin:8px 0 4px}
+  .gift-card p{color:var(--muted);margin-top:0}
+  .gift-hidden{display:none;margin-top:18px}
+  .gift-visible{display:block}
+  .gift-value{
+    padding:16px;border:1px dashed #d7c8c2;border-radius:12px;
+    background:rgba(255,255,255,.7);word-break:break-word;
+  }
+  .btn{
+    display:inline-block;border:0;border-radius:12px;padding:13px 20px;
+    font:inherit;cursor:pointer;text-decoration:none;margin-top:10px;
+    transition:transform .15s ease;
+  }
+  .btn:hover{transform:translateY(-1px)}
+  .btn-rose{background:var(--rose);color:white}
+  .btn-lav{background:#ddd7e9;color:var(--lav-ink)}
+  .note{text-align:center;color:var(--muted);font-size:.92rem;margin-top:30px}
+  .footer{text-align:center;padding:34px;color:var(--muted);font-size:.9rem}
+  .paw{color:var(--rose);font-size:1.1rem}
+  @media(max-width:760px){
+    .hero{grid-template-columns:1fr}
+    .hero-art{height:430px;min-height:0}
+    .hero-copy{padding:48px 25px}
+    .messages,.gift-grid{grid-template-columns:1fr}
+    .message{padding:28px 0}
+    .message + .message{border-left:0;border-top:1px solid var(--line)}
+    .section{padding:55px 7%}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-art">
+      <img src="assets/anhthu_cat_knight.png" alt="Anh Thu as a cat-eared fantasy knight">
+    </div>
+    <div class="hero-copy">
+      <div class="eyebrow">A little birthday page, just for you</div>
+      <h1>Happy Birthday<br>Anh Thu</h1>
+      <div class="cat"> ฅ^•ﻌ•^ฅ </div>
+      <p class="subtitle">For the kind, strong and shiny knight.</p>
+    </div>
+  </header>
+
+  <!-- MESSAGE -->
+  <section class="section">
+    <h2 class="section-title">To the person who deserves to be happy the most.</h2>
+    <p class="section-intro">Mutlu olmayı en çok hak eden insana; <strong>Meow-Chi!</strong></p>
+
+    <div class="messages">
+      <article class="message">
+        <div class="lang">Türkçe</div>
+        <p>
+          Bu zorlu hayatta bir kedi gibi asil, güçlü, sevgi dolu kalabilen
+          kibar bir kadına dünyaları hediye etseler yeterli gelmeyecektir.
+          Seninle tanıştığım için çok şanslıyım. Yüzünden gülümsemenin,
+          kalbinden mutluluğun eksik olmayacağı nice yıllar dileği ile...<br><br>
+          <em>İyi ki doğdun </em>
+        </p>
+      </article>
+
+      <article class="message">
+        <div class="lang">English</div>
+        <p>
+          In this challenging life, even if they gifted her the whole world, it would never 
+          be enough for a kind woman who remains noble, strong, and warm hearted like a cat. 
+          I am so lucky to meet you in my life. Wishing you many years where your smile 
+          never fades from your face and happiness never leaves your heart...<br><br>
+          <em>Happy birthday ♡</em>
+        </p>
+      </article>
+
+      <article class="message">
+        <div class="lang">Tiếng Việt</div>
+        <p>
+          Trong cuộc sống đầy thử thách này, ngay cả khi người ta tặng cô ấy cả thế giới,
+          thì cũng sẽ không bao giờ đủ đối với một người phụ nữ tốt bụng, vẫn giữ được sự cao quý,
+          mạnh mẽ và trái tim ấm áp như một chú mèo. Anh cảm thấy thật may mắn khi được gặp em trong
+          cuộc đời này. Chúc em có thật nhiều năm tháng mà nụ cười không bao giờ phai trên môi
+          và niềm hạnh phúc không bao giờ rời khỏi trái tim em...<br><br>
+          <em>Chúc mừng sinh nhật ♡</em>
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- GIFTS -->
+  <section class="section gift-section" id="gifts">
+    <h2 class="section-title">🎁 Get Your Gift</h2>
+    <p class="section-intro">Two little surprises, just for you.</p>
+
+    <div class="gift-grid">
+      <article class="gift-card shopee">
+        <div class="gift-icon">🛍️</div>
+        <h3>Shopee Gift Card</h3>
+        <p>Use the code or link below to claim your Shopee gift.</p>
+        <button class="btn btn-rose" onclick="showGift('shopee-gift')">Get your gift</button>
+        <div id="shopee-gift" class="gift-hidden">
+          <!-- EDIT: replace the placeholder below with the real Shopee code or link -->
+          <div class="gift-value">(PLEASE ASK TO GOKDENIZ...)</div>
+        </div>
+      </article>
+
+      <article class="gift-card special">
+        <div class="gift-icon">🎀</div>
+        <h3>The Gift I Chose For You</h3>
+        <p>A little something I picked especially for you. ♡</p>
+        <button class="btn btn-lav" onclick="showGift('special-gift')">See your gift</button>
+        <div id="special-gift" class="gift-hidden">
+          <!-- https://shopee.vn/-%C6%AFu-%C4%91%C3%A3i-%C4%91%E1%BA%B7c-bi%E1%BB%87t-Nh%E1%BA%ADt-k%C3%BD-h%C3%A0ng-h%C3%B3a-ho%E1%BA%A1t-h%C3%ACnh-th%C3%A1m-t%E1%BB%AD-Conan-S%E1%BB%95-tay-s%C3%A1ng-t%E1%BA%A1o-hai-chi%E1%BB%81u-Notepad-S%C3%A1ch-b%C3%A0i-t%E1%BA%ADp-b%C3%A0i-t%E1%BA%ADp-v%E1%BB%81-nh%C3%A0-Tr%C6%B0%E1%BB%9Dng-h%E1%BB%8Dc-sinh-H%C3%A0ng-h%C3%B3a-Qu%C3%A0-t%E1%BA%B7ng-v%C4%83n-ph%C3%B2ng-B%E1%BA%A1n-b%C3%A8-i.966118009.25326868904?extraParams=%7B%22display_model_id%22%3A250721912385%2C%22model_selection_logic%22%3A3%7D -->
+          <div class="gift-value">https://shopee.vn/-%C6%AFu-%C4%91%C3%A3i-%C4%91%E1%BA%B7c-bi%E1%BB%87t-Nh%E1%BA%ADt-k%C3%BD-h%C3%A0ng-h%C3%B3a-ho%E1%BA%A1t-h%C3%ACnh-th%C3%A1m-t%E1%BB%AD-Conan-S%E1%BB%95-tay-s%C3%A1ng-t%E1%BA%A1o-hai-chi%E1%BB%81u-Notepad-S%C3%A1ch-b%C3%A0i-t%E1%BA%ADp-b%C3%A0i-t%E1%BA%ADp-v%E1%BB%81-nh%C3%A0-Tr%C6%B0%E1%BB%9Dng-h%E1%BB%8Dc-sinh-H%C3%A0ng-h%C3%B3a-Qu%C3%A0-t%E1%BA%B7ng-v%C4%83n-ph%C3%B2ng-B%E1%BA%A1n-b%C3%A8-i.966118009.25326868904?extraParams=%7B%22display_model_id%22%3A250721912385%2C%22model_selection_logic%22%3A3%7D</div>
+        </div>
+      </article>
+    </div>
+
+    <p class="note">No rush. Just open them whenever you’re ready. ♡</p>
+  </section>
+
+  <footer class="footer">
+    <span class="paw">ฅ^•ﻌ•^ฅ</span> Stay and Live Strong <span class="paw">ฅ^•ﻌ•^ฅ</span>
+  </footer>
+</div>
+
+<script>
+function showGift(id){
+  document.getElementById(id).classList.add('gift-visible');
+}
+</script>
+</body>
+</html>
